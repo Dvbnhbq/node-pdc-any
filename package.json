@@ -1,30 +1,42 @@
 {
-  "name": "pdc",
-  "description": "a pandoc wrapper for node",
-  "author": "Paul Vorbach <paul@vorba.ch> (http://paul.vorba.ch/)",
-  "tags": [
-    "pandoc",
-    "markdown"
-  ],
-  "version": "0.2.3",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pvorb/node-pdc.git"
+  "author": {
+    "email": "dvbnhbq@gmail.com",
+    "name": "Dvbnhbq"
   },
   "bugs": {
-    "url": "https://github.com/pvorb/node-pdc/issues"
+    "url": "https://github.com/dvbnhbq/node-pdc-any/issues"
   },
-  "main": "./pdc.js",
+  "dependencies": {},
+  "description": "a pandoc wrapper for node forked by me",
+  "devDependencies": {},
+  "directories": {},
   "engines": {
     "node": ">=0.6.0"
   },
+  "homepage": "https://github.com/dvbnhbq/node-pdc-any#readme",
   "licenses": [
     {
-      "type": "MIT",
-      "url": "http://vorba.ch/license/mit.html"
+      "type": "MIT"
     }
   ],
-  "dependencies": {},
-  "devDependencies": {},
-  "optionalDependencies": {}
+  "main": "./pdc.js",
+  "maintainers": [
+    {
+      "name": "dvbnhbq",
+      "email": "dvbnhbq@gmail.com"
+    }
+  ],
+  "name": "pdc-any",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dvbnhbq/node-pdc-any.git"
+  },
+  "scripts": {},
+  "tags": [
+    "markdown",
+    "pandoc"
+  ],
+  "version": "0.2.3"
 }
