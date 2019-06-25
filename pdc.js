@@ -4,7 +4,7 @@ module.exports = pdc;
 
 // pdcStream(from, to, [args,] [opts])
 function pdcStream(from, to, args, opts) {
-  var defaultArgs = [ '-f', from, '-t', to ];
+  var defaultArgs = (typeof to != 'undefined') ? [ '-f', from, '-t', to ] : [ '-f', from ];
 
   // sanitize arguments
   // no args, no opts
